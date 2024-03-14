@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]">
+  <test name="DS ALGO(failed)">
+    <classes>
+      <class name="runner.TestNGRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="53"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRunner -->
+    </classes>
+  </test> <!-- DS ALGO(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

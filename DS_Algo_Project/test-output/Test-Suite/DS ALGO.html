@@ -1,0 +1,444 @@
+<html>
+<head>
+<title>TestNG:  DS ALGO</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DS ALGO</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>62/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 12 19:22:36 EDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>178 seconds (178672 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Tree traversals", "To test the functionality of tree structure"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=122.0.6261.112)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f59785bf339d751b348f9e1ae75d6fd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\bindu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54758/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f59785bf339d751b348f9e1ae75d6fd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.App_Hooks.setUp(App_Hooks.java:37)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace821311853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace821311853'><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=122.0.6261.112)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f59785bf339d751b348f9e1ae75d6fd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\bindu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54758/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f59785bf339d751b348f9e1ae75d6fd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.App_Hooks.setUp(App_Hooks.java:37)
+</pre></div></td>
+<td>27</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register without username and password", "Registration process of the user"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "This test is to verify the Registration page", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user tries to Register", "Registration process of the user"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Arrays in Python link redirects to Arrays in Python page.", "Testing the Array Page"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to navigate into DS_Algo Array Page", "Testing the Array Page"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Applications of Array navigates to Applications of Array page", "Testing the Array Page"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page", "Testing the Array Page"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Practice Question 2 page has the question, code editor, run and submit buttons", "Testing the Array Page"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the practice questions page has all the 4 links mentioned.", "Testing the Array Page"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Practice Question 1 page has the question, code editor, run and submit buttons", "Testing the Array Page"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window", "Testing the Array Page"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Arrays using List menu navigates to Arrays Using List page", "Testing the Array Page"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Try here button is redirecting the user to the python editor.", "Testing the Array Page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Practice Question 3 page has the question, code editor, run and submit buttons", "Testing the Array Page"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Python Editor when an valid code is given", "Testing the Array Page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Practice Question 4 page has the question, code editor, run and submit buttons", "Testing the Array Page"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Getting started in Queue with another topic", "Data Structure Home page"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Queue invalid passing code", "Data Structure Home page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Getting started in Queue", "Data Structure Home page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Gettin started in Queue with other topic", "Data Structure Home page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify running the practice question with no code in find numbers with even number of digits", "Testing the Array Page"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify submitting the practice question with no code in squares of a sorted array", "Testing the Array Page"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify submitting the practice question with no code in max consecutive ones", "Testing the Array Page"</td>
+<td></td>
+<td>33</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Clicking the get started in Queue", "Data Structure Home page"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify submitting the practice question with no code in search the array link", "Testing the Array Page"</td>
+<td></td>
+<td>36</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify submitting the practice question with valid code in search the array link", "Testing the Array Page"</td>
+<td></td>
+<td>35</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Practice Question Paper", "Data Structure Home page"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Home Page", "Data Structure Home page - DS_Introduction"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Home Page", "Data Structure Home page - DS_Introduction"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Python editor", "Data Structure Home page - DS_Introduction"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice Questions", "To test graph page"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check Linked List page functionality", "Getting Started to Signin DS_Algo Portal"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Stack page functionality-Application Practice", "Stack page functionality"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-overview of tree", "To test the functionality of tree structure"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "inspecting another topic in queue", "To test graph page"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Stack page functionality-Implementation", "Stack page functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Stack page functionality-operations in stack", "Stack page functionality"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "getting started to graph page", "To test graph page"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Terminologies", "To test the functionality of tree structure"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Types of trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Types of Binary trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Implementation in python", "To test the functionality of tree structure"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Binary tree traversals", "To test the functionality of tree structure"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Traversals-Illustration", "To test the functionality of tree structure"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Binary Trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Applications of Binary trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Implementation of Binary Trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Binary search Trees", "To test the functionality of tree structure"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check Tree page functionality-Implementation of Bst", "To test the functionality of tree structure"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestNGRunner@32eff876</td></tr>
+</table><p>
+</body>
+</html>
