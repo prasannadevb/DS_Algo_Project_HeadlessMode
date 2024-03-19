@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 14, 2024 11:42:41 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 18, 2024 07:56:41 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,7 +79,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@array</a><a class="dropdown-item" href="#">@question</a><a class="dropdown-item" href="#">@DS_Introductionpage</a><a class="dropdown-item" href="#">@Linkedlist</a><a class="dropdown-item" href="#">@Stack</a><a class="dropdown-item" href="#">@Graph</a><a class="dropdown-item" href="#">@question1</a><a class="dropdown-item" href="#">@register</a><a class="dropdown-item" href="#">@Queue</a><a class="dropdown-item" href="#">@tree</a>
+<a class="dropdown-item" href="#">@array</a><a class="dropdown-item" href="#">@Queue</a><a class="dropdown-item" href="#">@Graph</a><a class="dropdown-item" href="#">@DS_Introductionpage</a><a class="dropdown-item" href="#">@question1</a><a class="dropdown-item" href="#">@question</a><a class="dropdown-item" href="#">@register</a><a class="dropdown-item" href="#">@tree</a><a class="dropdown-item" href="#">@Linkedlist</a><a class="dropdown-item" href="#">@Stack</a>
 </ul>
 </li>
 </ul>
@@ -92,7 +92,7 @@
           <div class="test-detail">
             <p class="name">Registration process of the user</p>
             <p class="text-sm">
-              <span>11:42:43 AM</span> / <span>00:00:07:771</span>
+              <span>7:56:43 PM</span> / <span>00:00:10:886</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -101,9 +101,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Registration process of the user</h5>
-<span class='badge badge-success'>03.14.2024 11:42:43 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:42:51 AM</span>
-<span class='badge badge-default'>00:00:07:771</span>
+<span class='badge badge-success'>03.18.2024 7:56:43 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:56:54 PM</span>
+<span class='badge badge-default'>00:00:10:886</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -118,41 +118,80 @@
         <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
       </div>
     </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-                </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
+                <span>Given given the user is on the home page</span>
+      <div>
+      </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given given the user is on the home page</span>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
+                <span>When the user clicks the register button</span>
       <div>
       </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When the user clicks the register button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the user should see the registration page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user clicks register button after entering valid "demo@testers","numpyninja1234" and password confirmation related boxes</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the user should be redirected to homepage of DSAlgo</span>
-      <div>
-      </div>
-                  </div>
               </div>
-            </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
+                <span>Then the user should see the registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_the_user_name_with_space_bar_char_other_than_digits()">
+                <span>When user clicks register button after entering the user name with space bar char other than digits</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_msg_after_entering_invalid_data()">
+                <span>Then user is not able to see error msg after entering invalid data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_empty_password_textbox()">
+                <span>And user redirected to empty password textbox</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
+                <span>Given given the user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
+                <span>When the user clicks the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
+                <span>Then the user should see the registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_characters_less_than_eight()">
+                <span>When user clicks register button after entering password with characters less than eight</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
+                <span>Then user is not able to see error message after entering invalid data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_register_button()">
+                <span>And user redirected to register button</span>
+      <div>
+      </div>
+              </div>
+          </div>
         </div>
   </div>
   <div class="card">
@@ -194,156 +233,50 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
-                <span>Given given the user is on the home page</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given given the user is on the home page</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
-                <span>When the user clicks the register button</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the register button</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
-                <span>Then the user should see the registration page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should see the registration page</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_the_user_name_with_space_bar_char_other_than_digits()">
-                <span>When user clicks register button after entering the user name with space bar char other than digits</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks register button after entering valid "demo@testers","numpyninja1234" and password confirmation related boxes</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_msg_after_entering_invalid_data()">
-                <span>Then user is not able to see error msg after entering invalid data</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be redirected to homepage of DSAlgo</span>
       <div>
       </div>
+                  </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_empty_password_textbox()">
-                <span>And user redirected to empty password textbox</span>
-      <div>
-      </div>
-              </div>
-          </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
-                <span>Given given the user is on the home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
-                <span>When the user clicks the register button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
-                <span>Then the user should see the registration page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_numeric_data()">
-                <span>When user clicks register button after entering password with numeric data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
-                <span>Then user is not able to see error message after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_should_see_an_empty_password_confirmation_textbox()">
-                <span>And user should see an empty password confirmation textbox</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>This test is to verify the Registration page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
-                <span>Given given the user is on the home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
-                <span>When the user clicks the register button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
-                <span>Then the user should see the registration page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
-                <span>Given given the user is on the home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
-                <span>When the user clicks the register button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
-                <span>Then the user should see the registration page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_characters_less_than_eight()">
-                <span>When user clicks register button after entering password with characters less than eight</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
-                <span>Then user is not able to see error message after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_register_button()">
-                <span>And user redirected to register button</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register without username and password</div>
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register without username and password</div>
       </div>
     </div>
         <div class="collapse">
@@ -384,7 +317,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="21"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
+        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
       </div>
     </div>
         <div class="collapse">
@@ -427,6 +360,73 @@
           </div>
         </div>
   </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>This test is to verify the Registration page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
+                <span>Given given the user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
+                <span>When the user clicks the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
+                <span>Then the user should see the registration page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
+                <span>Given given the user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
+                <span>When the user clicks the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
+                <span>Then the user should see the registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_numeric_data()">
+                <span>When user clicks register button after entering password with numeric data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
+                <span>Then user is not able to see error message after entering invalid data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Register.user_should_see_an_empty_password_confirmation_textbox()">
+                <span>And user should see an empty password confirmation textbox</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
 </div>
           </div>
         </li>
@@ -437,7 +437,7 @@
           <div class="test-detail">
             <p class="name">Testing the Array Page</p>
             <p class="text-sm">
-              <span>11:42:43 AM</span> / <span>00:00:34:815</span>
+              <span>7:56:43 PM</span> / <span>00:00:34:462</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -446,9 +446,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Testing the Array Page</h5>
-<span class='badge badge-success'>03.14.2024 11:42:43 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:18 AM</span>
-<span class='badge badge-default'>00:00:34:815</span>
+<span class='badge badge-success'>03.18.2024 7:56:43 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:17 PM</span>
+<span class='badge badge-default'>00:00:34:462</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -486,7 +486,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Verify Arrays in Python link redirects to Arrays in Python page.</div>
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Verify Arrays in Python link redirects to Arrays in Python page.</div>
       </div>
     </div>
         <div class="collapse">
@@ -512,7 +512,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="56"><span class="badge log pass-bg mr-2">Pass</span>Verify the Arrays using List menu navigates to Arrays Using List page</div>
+        <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>Verify the Arrays using List menu navigates to Arrays Using List page</div>
       </div>
     </div>
         <div class="collapse">
@@ -538,7 +538,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="68"><span class="badge log pass-bg mr-2">Pass</span>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</div>
+        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</div>
       </div>
     </div>
         <div class="collapse">
@@ -564,7 +564,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Verify the Applications of Array navigates to Applications of Array page</div>
+        <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Verify the Applications of Array navigates to Applications of Array page</div>
       </div>
     </div>
         <div class="collapse">
@@ -590,7 +590,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Verify the Try here button is redirecting the user to the python editor.</div>
+        <div class="node" id="75"><span class="badge log pass-bg mr-2">Pass</span>Verify the Try here button is redirecting the user to the python editor.</div>
       </div>
     </div>
         <div class="collapse">
@@ -616,7 +616,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="83"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</div>
+        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</div>
       </div>
     </div>
         <div class="collapse">
@@ -657,7 +657,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor when an valid code is given</div>
+        <div class="node" id="86"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor when an valid code is given</div>
       </div>
     </div>
         <div class="collapse">
@@ -688,7 +688,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="94"><span class="badge log pass-bg mr-2">Pass</span>Verify the practice questions page has all the 4 links mentioned.</div>
+        <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Verify the practice questions page has all the 4 links mentioned.</div>
       </div>
     </div>
         <div class="collapse">
@@ -714,7 +714,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="96"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 1 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 1 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
         <div class="collapse">
@@ -766,7 +766,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="106"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 3 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="104"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 3 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
         <div class="collapse">
@@ -792,7 +792,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="115"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 4 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 4 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
         <div class="collapse">
@@ -818,7 +818,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="123"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in search the array link</div>
+        <div class="node" id="120"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in search the array link</div>
       </div>
     </div>
         <div class="collapse">
@@ -864,7 +864,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="126"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in max consecutive ones</div>
+        <div class="node" id="122"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in max consecutive ones</div>
       </div>
     </div>
         <div class="collapse">
@@ -905,7 +905,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="135"><span class="badge log pass-bg mr-2">Pass</span>verify running the practice question with no code in find numbers with even number of digits</div>
+        <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>verify running the practice question with no code in find numbers with even number of digits</div>
       </div>
     </div>
         <div class="collapse">
@@ -946,7 +946,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="138"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in squares of a sorted array</div>
+        <div class="node" id="142"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in squares of a sorted array</div>
       </div>
     </div>
         <div class="collapse">
@@ -992,7 +992,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="147"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with valid code in search the array link</div>
+        <div class="node" id="143"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with valid code in search the array link</div>
       </div>
     </div>
         <div class="collapse">
@@ -1033,14 +1033,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="153"
+        <li class="test-item"  status="pass" test-id="156"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Data Structure Home page</p>
             <p class="text-sm">
-              <span>11:42:58 AM</span> / <span>00:00:14:221</span>
+              <span>7:57:02 PM</span> / <span>00:00:15:491</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1049,10 +1049,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Data Structure Home page</h5>
-<span class='badge badge-success'>03.14.2024 11:42:58 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:12 AM</span>
-<span class='badge badge-default'>00:00:14:221</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=153</span>
+<span class='badge badge-success'>03.18.2024 7:57:02 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:18 PM</span>
+<span class='badge badge-default'>00:00:15:491</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=156</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -1063,14 +1063,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="154"><span class="badge log pass-bg mr-2">Pass</span>Clicking the get started in Queue</div>
+        <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>Clicking the get started in Queue</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="155"><span class="badge log pass-bg mr-2">Pass</span>Clicking the get started in Queue</div>
+                  <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>Clicking the get started in Queue</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1121,14 +1121,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>Gettin started in Queue with other topic</div>
+        <div class="node" id="160"><span class="badge log pass-bg mr-2">Pass</span>Gettin started in Queue with other topic</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>Gettin started in Queue with other topic</div>
+                  <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>Gettin started in Queue with other topic</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1179,14 +1179,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="165"><span class="badge log pass-bg mr-2">Pass</span>Queue invalid passing code</div>
+        <div class="node" id="167"><span class="badge log pass-bg mr-2">Pass</span>Queue invalid passing code</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="166"><span class="badge log pass-bg mr-2">Pass</span>Queue invalid passing code</div>
+                  <div class="node" id="168"><span class="badge log pass-bg mr-2">Pass</span>Queue invalid passing code</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1295,14 +1295,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="179"><span class="badge log pass-bg mr-2">Pass</span>Getting started in Queue with another topic</div>
+        <div class="node" id="181"><span class="badge log pass-bg mr-2">Pass</span>Getting started in Queue with another topic</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="180"><span class="badge log pass-bg mr-2">Pass</span>Getting started in Queue with another topic</div>
+                  <div class="node" id="182"><span class="badge log pass-bg mr-2">Pass</span>Getting started in Queue with another topic</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1353,7 +1353,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="212"><span class="badge log pass-bg mr-2">Pass</span>Practice Question Paper</div>
+        <div class="node" id="202"><span class="badge log pass-bg mr-2">Pass</span>Practice Question Paper</div>
       </div>
     </div>
         <div class="collapse">
@@ -1389,14 +1389,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="224"
+        <li class="test-item"  status="pass" test-id="206"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Data Structure Home page - DS_Introduction</p>
             <p class="text-sm">
-              <span>11:43:06 AM</span> / <span>00:00:11:206</span>
+              <span>7:57:08 PM</span> / <span>00:00:13:350</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1405,10 +1405,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Data Structure Home page - DS_Introduction</h5>
-<span class='badge badge-success'>03.14.2024 11:43:06 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:18 AM</span>
-<span class='badge badge-default'>00:00:11:206</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=224</span>
+<span class='badge badge-success'>03.18.2024 7:57:08 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:22 PM</span>
+<span class='badge badge-default'>00:00:13:350</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=206</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -1419,14 +1419,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="225"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
+        <div class="node" id="207"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="226"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
+                  <div class="node" id="208"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1472,14 +1472,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="229"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
+        <div class="node" id="232"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="230"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
+                  <div class="node" id="233"><span class="badge log pass-bg mr-2">Pass</span>Home Page</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1525,7 +1525,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="241"><span class="badge log pass-bg mr-2">Pass</span>Python editor</div>
+        <div class="node" id="257"><span class="badge log pass-bg mr-2">Pass</span>Python editor</div>
       </div>
     </div>
         <div class="collapse">
@@ -1551,14 +1551,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="265"
+        <li class="test-item"  status="pass" test-id="260"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Getting Started to Signin DS_Algo Portal</p>
             <p class="text-sm">
-              <span>11:43:10 AM</span> / <span>00:00:16:926</span>
+              <span>7:57:13 PM</span> / <span>00:00:19:050</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1567,10 +1567,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Getting Started to Signin DS_Algo Portal</h5>
-<span class='badge badge-success'>03.14.2024 11:43:10 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:27 AM</span>
-<span class='badge badge-default'>00:00:16:926</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=265</span>
+<span class='badge badge-success'>03.18.2024 7:57:13 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:32 PM</span>
+<span class='badge badge-default'>00:00:19:050</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=260</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -1581,14 +1581,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="266"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="261"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="267"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                  <div class="node" id="262"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1629,14 +1629,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="270"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="266"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="271"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                  <div class="node" id="267"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1682,57 +1682,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="274"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="269"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="275"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>When user clicks get started on linked list</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user clicks Types of linked list  link</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When the user click try here button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And the user click run button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the user is able to see output in console</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="277"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
-      </div>
-    </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="278"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
+                  <div class="node" id="270"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1768,14 +1725,57 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="287"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="289"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="288"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                  <div class="node" id="290"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When user clicks get started on linked list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks Types of linked list  link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user click try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user click run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user is able to see output in console</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="294"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="295"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1811,14 +1811,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="295"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="306"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="296"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                  <div class="node" id="307"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1854,14 +1854,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="310"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+        <div class="node" id="309"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="311"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
+                  <div class="node" id="310"><span class="badge log pass-bg mr-2">Pass</span>To check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1897,14 +1897,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="318"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
+        <div class="node" id="313"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="319"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
+                  <div class="node" id="314"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1940,7 +1940,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="326"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
+        <div class="node" id="321"><span class="badge log pass-bg mr-2">Pass</span>check Linked List page functionality</div>
       </div>
     </div>
         <div class="collapse">
@@ -1976,14 +1976,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="328"
+        <li class="test-item"  status="pass" test-id="336"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Stack page functionality</p>
             <p class="text-sm">
-              <span>11:43:18 AM</span> / <span>00:00:13:152</span>
+              <span>7:57:22 PM</span> / <span>00:00:10:177</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1992,10 +1992,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Stack page functionality</h5>
-<span class='badge badge-success'>03.14.2024 11:43:18 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:31 AM</span>
-<span class='badge badge-default'>00:00:13:152</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=328</span>
+<span class='badge badge-success'>03.18.2024 7:57:22 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:32 PM</span>
+<span class='badge badge-default'>00:00:10:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=336</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -2006,14 +2006,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="329"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-operations in stack</div>
+        <div class="node" id="337"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-operations in stack</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="330"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-operations in stack</div>
+                  <div class="node" id="338"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-operations in stack</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2069,14 +2069,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="356"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Implementation</div>
+        <div class="node" id="353"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Implementation</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="357"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Implementation</div>
+                  <div class="node" id="354"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Implementation</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2127,7 +2127,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="360"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Application Practice</div>
+        <div class="node" id="359"><span class="badge log pass-bg mr-2">Pass</span>To check Stack page functionality-Application Practice</div>
       </div>
     </div>
         <div class="collapse">
@@ -2168,14 +2168,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="368"
+        <li class="test-item"  status="pass" test-id="363"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">To test graph page</p>
             <p class="text-sm">
-              <span>11:43:22 AM</span> / <span>00:00:10:340</span>
+              <span>7:57:23 PM</span> / <span>00:00:12:433</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -2184,10 +2184,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">To test graph page</h5>
-<span class='badge badge-success'>03.14.2024 11:43:22 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:33 AM</span>
-<span class='badge badge-default'>00:00:10:340</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=368</span>
+<span class='badge badge-success'>03.18.2024 7:57:23 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:36 PM</span>
+<span class='badge badge-default'>00:00:12:433</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=363</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -2198,14 +2198,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="369"><span class="badge log pass-bg mr-2">Pass</span>getting started to graph page</div>
+        <div class="node" id="364"><span class="badge log pass-bg mr-2">Pass</span>getting started to graph page</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="370"><span class="badge log pass-bg mr-2">Pass</span>getting started to graph page</div>
+                  <div class="node" id="365"><span class="badge log pass-bg mr-2">Pass</span>getting started to graph page</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2251,14 +2251,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="372"><span class="badge log pass-bg mr-2">Pass</span>inspecting another topic in queue</div>
+        <div class="node" id="369"><span class="badge log pass-bg mr-2">Pass</span>inspecting another topic in queue</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="373"><span class="badge log pass-bg mr-2">Pass</span>inspecting another topic in queue</div>
+                  <div class="node" id="370"><span class="badge log pass-bg mr-2">Pass</span>inspecting another topic in queue</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2304,7 +2304,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="386"><span class="badge log pass-bg mr-2">Pass</span>practice Questions</div>
+        <div class="node" id="393"><span class="badge log pass-bg mr-2">Pass</span>practice Questions</div>
       </div>
     </div>
         <div class="collapse">
@@ -2335,14 +2335,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="393"
+        <li class="test-item"  status="pass" test-id="396"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">To test the functionality of tree structure</p>
             <p class="text-sm">
-              <span>11:43:25 AM</span> / <span>00:00:17:989</span>
+              <span>7:57:29 PM</span> / <span>00:00:15:666</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -2351,10 +2351,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">To test the functionality of tree structure</h5>
-<span class='badge badge-success'>03.14.2024 11:43:25 AM</span>
-<span class='badge badge-danger'>03.14.2024 11:43:43 AM</span>
-<span class='badge badge-default'>00:00:17:989</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=393</span>
+<span class='badge badge-success'>03.18.2024 7:57:29 PM</span>
+<span class='badge badge-danger'>03.18.2024 7:57:44 PM</span>
+<span class='badge badge-default'>00:00:15:666</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=396</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -2365,14 +2365,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="394"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-overview of tree</div>
+        <div class="node" id="397"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-overview of tree</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="395"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-overview of tree</div>
+                  <div class="node" id="398"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-overview of tree</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2423,14 +2423,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="403"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Terminologies</div>
+        <div class="node" id="402"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Terminologies</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="404"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Terminologies</div>
+                  <div class="node" id="403"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Terminologies</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2481,7 +2481,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="407"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Types of trees</div>
+        <div class="node" id="414"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Types of trees</div>
       </div>
     </div>
         <div class="collapse">
@@ -2527,7 +2527,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="414"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Tree traversals</div>
+        <div class="node" id="438"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Tree traversals</div>
       </div>
     </div>
         <div class="collapse">
@@ -2573,14 +2573,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="437"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Traversals-Illustration</div>
+        <div class="node" id="443"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Traversals-Illustration</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="438"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Traversals-Illustration</div>
+                  <div class="node" id="444"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Traversals-Illustration</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2631,14 +2631,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="444"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary Trees</div>
+        <div class="node" id="449"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary Trees</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="445"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary Trees</div>
+                  <div class="node" id="450"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary Trees</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2689,7 +2689,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="456"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Types of Binary trees</div>
+        <div class="node" id="455"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Types of Binary trees</div>
       </div>
     </div>
         <div class="collapse">
@@ -2735,7 +2735,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="466"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation in python</div>
+        <div class="node" id="457"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation in python</div>
       </div>
     </div>
         <div class="collapse">
@@ -2781,14 +2781,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="479"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary tree traversals</div>
+        <div class="node" id="471"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary tree traversals</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="480"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary tree traversals</div>
+                  <div class="node" id="472"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary tree traversals</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2839,14 +2839,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="482"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Binary Trees</div>
+        <div class="node" id="486"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Binary Trees</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="483"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Binary Trees</div>
+                  <div class="node" id="487"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Binary Trees</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -2897,7 +2897,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="493"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Applications of Binary trees</div>
+        <div class="node" id="498"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Applications of Binary trees</div>
       </div>
     </div>
         <div class="collapse">
@@ -2943,14 +2943,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="511"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary search Trees</div>
+        <div class="node" id="505"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary search Trees</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="512"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary search Trees</div>
+                  <div class="node" id="506"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Binary search Trees</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -3001,7 +3001,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="522"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Bst</div>
+        <div class="node" id="519"><span class="badge log pass-bg mr-2">Pass</span>To check Tree page functionality-Implementation of Bst</div>
       </div>
     </div>
         <div class="collapse">
@@ -3062,15 +3062,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>22</span>
+<span class='badge log pass-bg'>20</span>
 </span>
 <p class="name">@array</p>
-<p class="duration text-sm">22 tests</p>
+<p class="duration text-sm">20 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@array</h4>
-<span status="pass" class='badge log pass-bg'>22 passed</span>
+<span status="pass" class='badge log pass-bg'>20 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -3083,7 +3083,7 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
+<td>19:56:43 PM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='5'>Verify user is able to navigate into DS_Algo Array Page</a>
 <div class="">
@@ -3093,9 +3093,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
+<td>19:56:43 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='17'>Verify Arrays in Python link redirects to Arrays in Python page.</a>
+<a href="#" class="linked" test-id='4' id='7'>Verify Arrays in Python link redirects to Arrays in Python page.</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify Arrays in Python link redirects to Arrays in Python page.</span>
 </div>
@@ -3103,9 +3103,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:49 AM</td>
+<td>19:56:50 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='56'>Verify the Arrays using List menu navigates to Arrays Using List page</a>
+<a href="#" class="linked" test-id='4' id='53'>Verify the Arrays using List menu navigates to Arrays Using List page</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Arrays using List menu navigates to Arrays Using List page</span>
 </div>
@@ -3113,9 +3113,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:49 AM</td>
+<td>19:56:51 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='68'>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</a>
+<a href="#" class="linked" test-id='4' id='67'>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</span>
 </div>
@@ -3123,9 +3123,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:51 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='78'>Verify the Applications of Array navigates to Applications of Array page</a>
+<a href="#" class="linked" test-id='4' id='69'>Verify the Applications of Array navigates to Applications of Array page</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Applications of Array navigates to Applications of Array page</span>
 </div>
@@ -3133,9 +3133,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:51 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='81'>Verify the Try here button is redirecting the user to the python editor.</a>
+<a href="#" class="linked" test-id='4' id='75'>Verify the Try here button is redirecting the user to the python editor.</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Try here button is redirecting the user to the python editor.</span>
 </div>
@@ -3143,9 +3143,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:52 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='83'>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</a>
+<a href="#" class="linked" test-id='4' id='79'>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</span>
 </div>
@@ -3153,9 +3153,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:52 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='85'>Verify the Python Editor when an valid code is given</a>
+<a href="#" class="linked" test-id='4' id='86'>Verify the Python Editor when an valid code is given</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the Python Editor when an valid code is given</span>
 </div>
@@ -3163,9 +3163,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:52 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='94'>Verify the practice questions page has all the 4 links mentioned.</a>
+<a href="#" class="linked" test-id='4' id='91'>Verify the practice questions page has all the 4 links mentioned.</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify the practice questions page has all the 4 links mentioned.</span>
 </div>
@@ -3173,9 +3173,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
+<td>19:56:52 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='96'>Verify Practice Question 1 page has the question, code editor, run and submit buttons</a>
+<a href="#" class="linked" test-id='4' id='93'>Verify Practice Question 1 page has the question, code editor, run and submit buttons</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify Practice Question 1 page has the question, code editor, run and submit buttons</span>
 </div>
@@ -3183,7 +3183,7 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:51 AM</td>
+<td>19:56:54 PM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='98'>Verify Practice Question 2 page has the question, code editor, run and submit buttons</a>
 <div class="">
@@ -3193,9 +3193,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:54 AM</td>
+<td>19:56:56 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='106'>Verify Practice Question 3 page has the question, code editor, run and submit buttons</a>
+<a href="#" class="linked" test-id='4' id='104'>Verify Practice Question 3 page has the question, code editor, run and submit buttons</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify Practice Question 3 page has the question, code editor, run and submit buttons</span>
 </div>
@@ -3203,9 +3203,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:55 AM</td>
+<td>19:56:58 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='115'>Verify Practice Question 4 page has the question, code editor, run and submit buttons</a>
+<a href="#" class="linked" test-id='4' id='109'>Verify Practice Question 4 page has the question, code editor, run and submit buttons</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.Verify Practice Question 4 page has the question, code editor, run and submit buttons</span>
 </div>
@@ -3213,9 +3213,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:56 AM</td>
+<td>19:56:59 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='123'>verify submitting the practice question with no code in search the array link</a>
+<a href="#" class="linked" test-id='4' id='120'>verify submitting the practice question with no code in search the array link</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in search the array link</span>
 </div>
@@ -3223,9 +3223,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:56 AM</td>
+<td>19:56:59 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='126'>verify submitting the practice question with no code in max consecutive ones</a>
+<a href="#" class="linked" test-id='4' id='122'>verify submitting the practice question with no code in max consecutive ones</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in max consecutive ones</span>
 </div>
@@ -3233,9 +3233,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:57 AM</td>
+<td>19:57:00 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='135'>verify running the practice question with no code in find numbers with even number of digits</a>
+<a href="#" class="linked" test-id='4' id='136'>verify running the practice question with no code in find numbers with even number of digits</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify running the practice question with no code in find numbers with even number of digits</span>
 </div>
@@ -3243,9 +3243,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:57 AM</td>
+<td>19:57:01 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='138'>verify submitting the practice question with no code in squares of a sorted array</a>
+<a href="#" class="linked" test-id='4' id='142'>verify submitting the practice question with no code in squares of a sorted array</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array</span>
 </div>
@@ -3253,9 +3253,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:58 AM</td>
+<td>19:57:01 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='147'>verify submitting the practice question with valid code in search the array link</a>
+<a href="#" class="linked" test-id='4' id='143'>verify submitting the practice question with valid code in search the array link</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with valid code in search the array link</span>
 </div>
@@ -3263,365 +3263,117 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:07 AM</td>
+<td>19:57:05 PM</td>
 <td>
-<a href="#" class="linked" test-id='224' id='241'>Python editor</a>
+<a href="#" class="linked" test-id='156' id='182'>Getting started in Queue with another topic</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Getting started in Queue with another topic</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='295'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@Queue</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Queue</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='158'>Clicking the get started in Queue</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Clicking the get started in Queue</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='161'>Gettin started in Queue with other topic</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Gettin started in Queue with other topic</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='168'>Queue invalid passing code</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Queue invalid passing code</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='171'>Getting started in Queue</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Getting started in Queue</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='182'>Getting started in Queue with another topic</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Getting started in Queue with another topic</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='202'>Practice Question Paper</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page.Practice Question Paper</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='206' id='257'>Python editor</a>
 <div class="">
 <span class="badge badge-default">Data Structure Home page - DS_Introduction.Python editor</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:18 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='326'>check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:26 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='407'>To check Tree page functionality-Types of trees</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Types of trees</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:36 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='522'>To check Tree page functionality-Implementation of Bst</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation of Bst</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@question</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@question</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:57 AM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='138'>verify submitting the practice question with no code in squares of a sorted array</a>
-<div class="">
-<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>6</span>
-</span>
-<p class="name">@DS_Introductionpage</p>
-<p class="duration text-sm">6 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@DS_Introductionpage</h4>
-<span status="pass" class='badge log pass-bg'>6 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:06 AM</td>
-<td>
-<a href="#" class="linked" test-id='224' id='226'>Home Page</a>
-<div class="">
-<span class="badge badge-default">Data Structure Home page - DS_Introduction.Home Page</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:07 AM</td>
-<td>
-<a href="#" class="linked" test-id='224' id='230'>Home Page</a>
-<div class="">
-<span class="badge badge-default">Data Structure Home page - DS_Introduction.Home Page</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:07 AM</td>
-<td>
-<a href="#" class="linked" test-id='224' id='241'>Python editor</a>
-<div class="">
-<span class="badge badge-default">Data Structure Home page - DS_Introduction.Python editor</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:16 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='311'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:24 AM</td>
-<td>
-<a href="#" class="linked" test-id='368' id='386'>practice Questions</a>
-<div class="">
-<span class="badge badge-default">To test graph page.practice Questions</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:33 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='483'>To check Tree page functionality-Implementation of Binary Trees</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation of Binary Trees</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>11</span>
-</span>
-<p class="name">@Linkedlist</p>
-<p class="duration text-sm">11 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@Linkedlist</h4>
-<span status="pass" class='badge log pass-bg'>11 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:10 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='267'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:10 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='271'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:10 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='275'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:10 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='278'>check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:11 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='288'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:12 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='296'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:16 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='311'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:16 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='319'>check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:18 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='326'>check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:21 AM</td>
-<td>
-<a href="#" class="linked" test-id='328' id='360'>To check Stack page functionality-Application Practice</a>
-<div class="">
-<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Application Practice</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:30 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='445'>To check Tree page functionality-Binary Trees</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary Trees</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>4</span>
-</span>
-<p class="name">@Stack</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@Stack</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:18 AM</td>
-<td>
-<a href="#" class="linked" test-id='328' id='330'>To check Stack page functionality-operations in stack</a>
-<div class="">
-<span class="badge badge-default">Stack page functionality.To check Stack page functionality-operations in stack</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:21 AM</td>
-<td>
-<a href="#" class="linked" test-id='328' id='357'>To check Stack page functionality-Implementation</a>
-<div class="">
-<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Implementation</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:21 AM</td>
-<td>
-<a href="#" class="linked" test-id='328' id='360'>To check Stack page functionality-Application Practice</a>
-<div class="">
-<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Application Practice</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:29 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='438'>To check Tree page functionality-Traversals-Illustration</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Traversals-Illustration</span>
 </div>
 </td>
 </tr>
@@ -3653,9 +3405,9 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:22 AM</td>
+<td>19:57:23 PM</td>
 <td>
-<a href="#" class="linked" test-id='368' id='370'>getting started to graph page</a>
+<a href="#" class="linked" test-id='363' id='365'>getting started to graph page</a>
 <div class="">
 <span class="badge badge-default">To test graph page.getting started to graph page</span>
 </div>
@@ -3663,9 +3415,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:23 AM</td>
+<td>19:57:24 PM</td>
 <td>
-<a href="#" class="linked" test-id='368' id='373'>inspecting another topic in queue</a>
+<a href="#" class="linked" test-id='363' id='370'>inspecting another topic in queue</a>
 <div class="">
 <span class="badge badge-default">To test graph page.inspecting another topic in queue</span>
 </div>
@@ -3673,9 +3425,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:24 AM</td>
+<td>19:57:28 PM</td>
 <td>
-<a href="#" class="linked" test-id='368' id='386'>practice Questions</a>
+<a href="#" class="linked" test-id='363' id='393'>practice Questions</a>
 <div class="">
 <span class="badge badge-default">To test graph page.practice Questions</span>
 </div>
@@ -3683,11 +3435,97 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:32 AM</td>
+<td>19:57:33 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='466'>To check Tree page functionality-Implementation in python</a>
+<a href="#" class="linked" test-id='396' id='457'>To check Tree page functionality-Implementation in python</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation in python</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">@DS_Introductionpage</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DS_Introductionpage</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='206' id='208'>Home Page</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page - DS_Introduction.Home Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='206' id='233'>Home Page</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page - DS_Introduction.Home Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='206' id='257'>Python editor</a>
+<div class="">
+<span class="badge badge-default">Data Structure Home page - DS_Introduction.Python editor</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='310'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='396' id='414'>To check Tree page functionality-Types of trees</a>
+<div class="">
+<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Types of trees</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='396' id='506'>To check Tree page functionality-Binary search Trees</a>
+<div class="">
+<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary search Trees</span>
 </div>
 </td>
 </tr>
@@ -3719,9 +3557,9 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:58 AM</td>
+<td>19:57:01 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='147'>verify submitting the practice question with valid code in search the array link</a>
+<a href="#" class="linked" test-id='4' id='143'>verify submitting the practice question with valid code in search the array link</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with valid code in search the array link</span>
 </div>
@@ -3734,15 +3572,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>14</span>
+<span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@register</p>
-<p class="duration text-sm">14 tests</p>
+<p class="name">@question</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@register</h4>
-<span status="pass" class='badge log pass-bg'>14 passed</span>
+<h4>@question</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -3755,141 +3593,11 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
+<td>19:57:01 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='6'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='7'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='9'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='10'>This test is to verify the Registration page</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.This test is to verify the Registration page</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='11'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='13'>The user tries to Register without username and password</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register without username and password</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='21'>The user tries to Register</a>
-<div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:50 AM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='94'>Verify the practice questions page has all the 4 links mentioned.</a>
-<div class="">
-<span class="badge badge-default">Testing the Array Page.Verify the practice questions page has all the 4 links mentioned.</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:57 AM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='138'>verify submitting the practice question with no code in squares of a sorted array</a>
+<a href="#" class="linked" test-id='4' id='142'>verify submitting the practice question with no code in squares of a sorted array</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:07 AM</td>
-<td>
-<a href="#" class="linked" test-id='224' id='230'>Home Page</a>
-<div class="">
-<span class="badge badge-default">Data Structure Home page - DS_Introduction.Home Page</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:16 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='319'>check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:25 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='404'>To check Tree page functionality-Terminologies</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Terminologies</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:36 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='512'>To check Tree page functionality-Binary search Trees</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary search Trees</span>
 </div>
 </td>
 </tr>
@@ -3900,15 +3608,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>9</span>
+<span class='badge log pass-bg'>13</span>
 </span>
-<p class="name">@Queue</p>
-<p class="duration text-sm">9 tests</p>
+<p class="name">@register</p>
+<p class="duration text-sm">13 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Queue</h4>
-<span status="pass" class='badge log pass-bg'>9 passed</span>
+<h4>@register</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -3921,19 +3629,99 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:58 AM</td>
+<td>19:56:43 PM</td>
 <td>
-<a href="#" class="linked" test-id='153' id='155'>Clicking the get started in Queue</a>
+<a href="#" class="linked" test-id='1' id='2'>The user tries to Register</a>
 <div class="">
-<span class="badge badge-default">Data Structure Home page.Clicking the get started in Queue</span>
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:42:59 AM</td>
+<td>19:56:43 PM</td>
 <td>
-<a href="#" class="linked" test-id='153' id='158'>Gettin started in Queue with other topic</a>
+<a href="#" class="linked" test-id='1' id='3'>The user tries to Register</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>The user tries to Register</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>The user tries to Register</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>The user tries to Register without username and password</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register without username and password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>The user tries to Register</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>This test is to verify the Registration page</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.This test is to verify the Registration page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='22'>The user tries to Register</a>
+<div class="">
+<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:56:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='79'>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='156' id='161'>Gettin started in Queue with other topic</a>
 <div class="">
 <span class="badge badge-default">Data Structure Home page.Gettin started in Queue with other topic</span>
 </div>
@@ -3941,71 +3729,31 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:00 AM</td>
+<td>19:57:18 PM</td>
 <td>
-<a href="#" class="linked" test-id='153' id='166'>Queue invalid passing code</a>
+<a href="#" class="linked" test-id='260' id='314'>check Linked List page functionality</a>
 <div class="">
-<span class="badge badge-default">Data Structure Home page.Queue invalid passing code</span>
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:01 AM</td>
+<td>19:57:29 PM</td>
 <td>
-<a href="#" class="linked" test-id='153' id='171'>Getting started in Queue</a>
+<a href="#" class="linked" test-id='396' id='403'>To check Tree page functionality-Terminologies</a>
 <div class="">
-<span class="badge badge-default">Data Structure Home page.Getting started in Queue</span>
+<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Terminologies</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:02 AM</td>
+<td>19:57:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='153' id='180'>Getting started in Queue with another topic</a>
+<a href="#" class="linked" test-id='396' id='519'>To check Tree page functionality-Implementation of Bst</a>
 <div class="">
-<span class="badge badge-default">Data Structure Home page.Getting started in Queue with another topic</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:06 AM</td>
-<td>
-<a href="#" class="linked" test-id='153' id='212'>Practice Question Paper</a>
-<div class="">
-<span class="badge badge-default">Data Structure Home page.Practice Question Paper</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:10 AM</td>
-<td>
-<a href="#" class="linked" test-id='265' id='271'>To check Linked List page functionality</a>
-<div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:21 AM</td>
-<td>
-<a href="#" class="linked" test-id='328' id='357'>To check Stack page functionality-Implementation</a>
-<div class="">
-<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Implementation</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:31 AM</td>
-<td>
-<a href="#" class="linked" test-id='393' id='456'>To check Tree page functionality-Types of Binary trees</a>
-<div class="">
-<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Types of Binary trees</span>
+<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation of Bst</span>
 </div>
 </td>
 </tr>
@@ -4037,9 +3785,9 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:25 AM</td>
+<td>19:57:29 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='395'>To check Tree page functionality-overview of tree</a>
+<a href="#" class="linked" test-id='396' id='398'>To check Tree page functionality-overview of tree</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-overview of tree</span>
 </div>
@@ -4047,9 +3795,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:25 AM</td>
+<td>19:57:29 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='404'>To check Tree page functionality-Terminologies</a>
+<a href="#" class="linked" test-id='396' id='403'>To check Tree page functionality-Terminologies</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Terminologies</span>
 </div>
@@ -4057,9 +3805,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:26 AM</td>
+<td>19:57:29 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='407'>To check Tree page functionality-Types of trees</a>
+<a href="#" class="linked" test-id='396' id='414'>To check Tree page functionality-Types of trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Types of trees</span>
 </div>
@@ -4067,9 +3815,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:27 AM</td>
+<td>19:57:31 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='414'>To check Tree page functionality-Tree traversals</a>
+<a href="#" class="linked" test-id='396' id='438'>To check Tree page functionality-Tree traversals</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Tree traversals</span>
 </div>
@@ -4077,9 +3825,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:29 AM</td>
+<td>19:57:32 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='438'>To check Tree page functionality-Traversals-Illustration</a>
+<a href="#" class="linked" test-id='396' id='444'>To check Tree page functionality-Traversals-Illustration</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Traversals-Illustration</span>
 </div>
@@ -4087,9 +3835,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:30 AM</td>
+<td>19:57:32 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='445'>To check Tree page functionality-Binary Trees</a>
+<a href="#" class="linked" test-id='396' id='450'>To check Tree page functionality-Binary Trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary Trees</span>
 </div>
@@ -4097,9 +3845,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:31 AM</td>
+<td>19:57:32 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='456'>To check Tree page functionality-Types of Binary trees</a>
+<a href="#" class="linked" test-id='396' id='455'>To check Tree page functionality-Types of Binary trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Types of Binary trees</span>
 </div>
@@ -4107,9 +3855,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:32 AM</td>
+<td>19:57:33 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='466'>To check Tree page functionality-Implementation in python</a>
+<a href="#" class="linked" test-id='396' id='457'>To check Tree page functionality-Implementation in python</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation in python</span>
 </div>
@@ -4117,9 +3865,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:33 AM</td>
+<td>19:57:34 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='480'>To check Tree page functionality-Binary tree traversals</a>
+<a href="#" class="linked" test-id='396' id='472'>To check Tree page functionality-Binary tree traversals</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary tree traversals</span>
 </div>
@@ -4127,9 +3875,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:33 AM</td>
+<td>19:57:36 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='483'>To check Tree page functionality-Implementation of Binary Trees</a>
+<a href="#" class="linked" test-id='396' id='487'>To check Tree page functionality-Implementation of Binary Trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation of Binary Trees</span>
 </div>
@@ -4137,9 +3885,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:34 AM</td>
+<td>19:57:37 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='493'>To check Tree page functionality-Applications of Binary trees</a>
+<a href="#" class="linked" test-id='396' id='498'>To check Tree page functionality-Applications of Binary trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Applications of Binary trees</span>
 </div>
@@ -4147,9 +3895,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:36 AM</td>
+<td>19:57:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='512'>To check Tree page functionality-Binary search Trees</a>
+<a href="#" class="linked" test-id='396' id='506'>To check Tree page functionality-Binary search Trees</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary search Trees</span>
 </div>
@@ -4157,11 +3905,193 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:43:36 AM</td>
+<td>19:57:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='393' id='522'>To check Tree page functionality-Implementation of Bst</a>
+<a href="#" class="linked" test-id='396' id='519'>To check Tree page functionality-Implementation of Bst</a>
 <div class="">
 <span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Implementation of Bst</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">@Linkedlist</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Linkedlist</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='262'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='267'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='270'>check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='290'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='295'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='307'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='310'>To check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.To check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='314'>check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='260' id='321'>check Linked List page functionality</a>
+<div class="">
+<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.check Linked List page functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@Stack</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Stack</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='336' id='338'>To check Stack page functionality-operations in stack</a>
+<div class="">
+<span class="badge badge-default">Stack page functionality.To check Stack page functionality-operations in stack</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='336' id='354'>To check Stack page functionality-Implementation</a>
+<div class="">
+<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Implementation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='336' id='359'>To check Stack page functionality-Application Practice</a>
+<div class="">
+<span class="badge badge-default">Stack page functionality.To check Stack page functionality-Application Practice</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:57:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='396' id='450'>To check Tree page functionality-Binary Trees</a>
+<div class="">
+<span class="badge badge-default">To test the functionality of tree structure.To check Tree page functionality-Binary Trees</span>
 </div>
 </td>
 </tr>
@@ -4182,13 +4112,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 14, 2024 11:42:41 AM</h3>
+<h3>Mar 18, 2024 07:56:41 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 14, 2024 11:43:43 AM</h3>
+<h3>Mar 18, 2024 07:57:44 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -4278,7 +4208,7 @@
 </div></div>
 <script>
 var timeline = {
-"Registration process of the user":7.771,"Testing the Array Page":34.815,"Data Structure Home page":14.221,"Data Structure Home page - DS_Introduction":11.206,"Getting Started to Signin DS_Algo Portal":16.926,"Stack page functionality":13.152,"To test graph page":10.34,"To test the functionality of tree structure":17.989
+"Registration process of the user":10.886,"Testing the Array Page":34.462,"Data Structure Home page":15.491,"Data Structure Home page - DS_Introduction":13.35,"Getting Started to Signin DS_Algo Portal":19.05,"Stack page functionality":10.177,"To test graph page":12.433,"To test the functionality of tree structure":15.666
 };
 </script>
 <div class="row">
@@ -4289,39 +4219,15 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@array</td>
-<td>22</td>
+<td>20</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
 </tr>
 <tr>
-<td>@question</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@DS_Introductionpage</td>
-<td>6</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@Linkedlist</td>
-<td>11</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@Stack</td>
-<td>4</td>
+<td>@Queue</td>
+<td>7</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -4336,6 +4242,14 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
+<td>@DS_Introductionpage</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
 <td>@question1</td>
 <td>1</td>
 <td>0</td>
@@ -4344,16 +4258,16 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@register</td>
-<td>14</td>
+<td>@question</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
 </tr>
 <tr>
-<td>@Queue</td>
-<td>9</td>
+<td>@register</td>
+<td>13</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -4362,6 +4276,22 @@ var timeline = {
 <tr>
 <td>@tree</td>
 <td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Linkedlist</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Stack</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
