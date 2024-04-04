@@ -6914,3 +6914,477 @@
 [INFO ]2024-03-1819:57:37.956[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
 [INFO ]2024-03-1819:57:38.344[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
 [INFO ]2024-03-1819:57:39.140[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.048[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.049[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.061[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.065[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.070[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.072[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.073[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.082[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.083[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:52.084[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:05:59.050[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:05:59.792[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:05:59.795[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:05:59.995[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:06:00.047[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:00.151[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:00.320[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:00.323[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:06:00.509[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:06:00.585[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0213:06:00.739[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:00.970[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:06:01.079[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:06:01.125[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:01.542[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:04.450[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:05.994[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:06.113[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:06.549[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:07.583[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:07.785[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:08.814[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:08.975[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:09.525[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:09.543[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:10.893[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:11.718[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:13.627[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:14.747[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:15.440[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:15.726[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:18.612[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:18.694[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:18.702[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:18.760[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:20.034[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:21.068[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:22.829[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:22.901[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:23.214[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:23.627[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:25.272[TestNG-PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:25.684[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:25.812[TestNG-PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:26.023[TestNG-PoolService-6]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:26.110[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:26.121[TestNG-PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:26.419[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:26.482[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:27.331[TestNG-PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:27.725[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:29.030[TestNG-PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:29.333[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:29.574[TestNG-PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:29.702[TestNG-PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:06:29.881[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:30.126[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:30.215[TestNG-PoolService-8]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:06:30.491[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:30.849[TestNG-PoolService-4]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:06:31.544[TestNG-PoolService-0]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:06:32.488[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:33.283[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:33.712[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:34.316[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:35.961[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:36.910[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:36.959[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:37.072[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:06:37.995[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:48.690[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:33:55.451[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:33:55.453[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:33:55.908[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:33:55.982[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:33:56.272[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:56.325[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:56.375[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:56.606[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:33:56.668[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:33:56.731[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:33:56.851[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0213:33:56.883[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:56.956[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:57.328[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:33:57.987[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:02.081[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:02.730[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:02.738[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:02.957[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:03.084[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:03.979[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:04.347[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:05.049[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:05.685[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:06.487[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:07.451[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:08.317[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:10.325[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:10.489[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:10.739[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:12.415[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:13.879[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:14.371[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:14.812[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:15.492[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:16.424[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:16.956[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:17.176[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:17.959[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:18.557[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:19.155[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:21.187[TestNG-PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:21.472[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:21.606[TestNG-PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:21.630[TestNG-PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:21.931[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:21.955[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:22.234[TestNG-PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:22.537[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:23.265[TestNG-PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:23.573[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:23.916[TestNG-PoolService-6]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:24.143[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:24.482[TestNG-PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:24.775[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:25.419[TestNG-PoolService-4]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:34:25.624[TestNG-PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:34:25.907[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:26.289[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:26.776[TestNG-PoolService-9]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:34:27.149[TestNG-PoolService-7]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:34:27.940[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:29.015[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:29.153[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:29.964[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:31.044[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:31.064[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:32.087[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:32.472[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:34:32.753[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:45:37.331[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:45:40.275[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:45:42.812[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:45:45.502[main]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:45:47.799[main]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:45:48.106[main]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:45:50.232[main]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:45:50.473[main]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:45:52.744[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:45:52.746[main]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:45:52.986[main]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:45:55.540[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:45:55.577[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0213:45:55.951[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:45:58.680[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:06.704[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:09.788[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:12.829[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:15.758[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:18.600[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:21.637[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:27.117[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:31.323[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:34.306[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:37.452[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:40.608[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:43.834[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:47.200[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:51.607[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:46:56.037[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:00.378[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:04.870[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:10.134[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:13.997[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:17.765[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:21.611[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:47:25.192[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.174[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.173[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.218[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.227[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.236[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.250[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.252[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.258[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.259[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:43.260[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:48:49.702[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:48:49.705[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:48:49.859[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:48:50.132[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:50.259[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:48:50.429[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0213:48:50.429[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:50.466[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:50.503[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0213:48:50.526[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0213:48:50.591[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0213:48:50.726[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:51.007[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:51.121[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:52.645[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:55.601[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:56.053[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:56.594[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:56.690[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:56.770[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:57.840[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:58.779[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:48:59.789[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:00.317[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:01.167[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:01.898[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:02.195[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:04.034[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:04.264[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:05.974[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:06.145[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:09.723[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:09.979[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:10.005[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:10.632[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:10.837[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:11.187[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:12.095[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:13.216[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:14.954[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:14.969[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:17.010[TestNG-PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:17.283[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:17.531[TestNG-PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:17.785[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:18.034[TestNG-PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:18.042[TestNG-PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:18.435[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:18.443[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:18.947[TestNG-PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:19.128[TestNG-PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:19.428[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:19.982[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:20.023[TestNG-PoolService-6]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:49:20.269[TestNG-PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:20.757[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:20.761[TestNG-PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0213:49:21.193[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:21.239[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:21.913[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:22.306[TestNG-PoolService-3]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:49:23.701[TestNG-PoolService-4]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0213:49:24.945[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:26.040[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:27.233[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:27.381[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:27.669[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:28.298[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:28.588[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0213:49:29.415[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.625[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.625[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.625[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:48.624[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:17:56.270[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:17:56.452[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:17:56.454[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:17:56.651[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:56.664[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:56.668[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:56.791[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:56.976[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:17:57.010[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:17:57.081[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0408:17:57.273[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:17:57.690[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:17:57.712[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:58.027[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:17:58.409[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:03.081[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:03.213[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:03.357[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:03.697[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:03.914[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:04.425[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:05.172[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:06.070[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:06.802[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:08.245[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:09.317[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:10.039[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:11.372[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:12.269[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:12.677[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:13.147[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:15.559[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:15.703[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:15.790[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:16.112[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:17.217[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:18.071[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:18.554[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:20.069[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:20.312[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:21.205[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:22.889[TestNG-PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:23.172[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:23.431[TestNG-PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:23.562[TestNG-PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:23.597[TestNG-PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:23.789[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:24.045[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:24.046[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:24.450[TestNG-PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:24.709[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:24.887[TestNG-PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:25.209[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:25.636[TestNG-PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:26.135[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:26.898[TestNG-PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:18:27.022[TestNG-PoolService-6]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:18:27.224[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:27.566[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:28.467[TestNG-PoolService-7]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:18:29.282[TestNG-PoolService-4]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:18:29.793[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:31.150[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:31.437[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:32.086[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:32.194[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:32.464[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:33.008[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:34.710[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:18:35.685[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.737[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.740[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.737[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.733[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.736[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.733[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.735[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.738[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.736[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:05.733[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:11.568[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:21:11.787[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:21:11.790[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:21:12.030[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:21:12.052[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:21:12.344[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:12.405[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:12.419[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:21:12.447[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:21:12.753[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:21:12.811[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:21:12.857[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:12.983[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:21:13.031[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0408:21:13.667[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:16.700[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:17.624[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:18.135[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:18.976[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:19.565[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:19.584[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:20.359[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:21.610[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:21.780[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:22.505[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:22.856[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:21:24.284[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.775[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.773[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.773[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.774[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.771[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.772[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.771[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.772[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.769[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:05.773[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:22:14.838[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:22:14.850[TestNG-PoolService-5]utilities.Logger_Load1)-No error message
+[ERROR]2024-04-0408:22:14.864[TestNG-PoolService-4]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:22:14.881[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:22:14.893[TestNG-PoolService-3]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:22:15.034[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:15.111[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:15.115[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:22:15.123[TestNG-PoolService-6]utilities.Logger_Load1)-No error message
+[INFO ]2024-04-0408:22:15.125[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:15.128[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[ERROR]2024-04-0408:22:15.169[TestNG-PoolService-6]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-04-0408:22:15.274[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:15.485[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:15.521[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:18.370[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:18.523[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:18.573[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:18.601[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:18.920[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:19.118[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:19.151[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:19.817[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:20.386[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:21.037[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:23.020[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:23.053[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.200[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.325[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.477[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.586[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.814[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:24.904[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:25.321[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:25.543[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:26.991[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:26.999[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:28.888[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:28.895[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:29.110[TestNG-PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:29.221[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:29.338[TestNG-PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:29.370[TestNG-PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:29.440[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:29.487[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:29.511[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:29.537[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:30.401[TestNG-PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:30.499[TestNG-PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:30.531[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:30.532[TestNG-PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:30.626[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:30.662[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:33.088[TestNG-PoolService-0]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:22:33.096[TestNG-PoolService-6]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:22:33.107[TestNG-PoolService-8]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-04-0408:22:33.933[TestNG-PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:33.945[TestNG-PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-04-0408:22:34.097[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.135[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.137[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.143[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.501[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.614[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:34.695[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:35.427[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:35.713[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:36.119[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:39.362[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-04-0408:22:39.895[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
